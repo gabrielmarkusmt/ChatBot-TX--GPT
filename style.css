@@ -1,0 +1,149 @@
+
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+    background-color: #080b16;
+}
+
+h1{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-size: 42px;
+
+}
+
+body, form, input[type="text"], #submit-button, #question-display, #answer, #loading-indicator, .container-princ {
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 102%;
+    
+
+}
+
+body.loading {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+form {
+    margin: 20px 0;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input[type="text"] {
+    margin: 0 auto;
+    color: #080b16;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    padding: 12px 20px;
+    border-radius: 15px;
+    width: 60%;
+    box-sizing: border-box;
+    border: 2px solid rgb(79, 70, 229);
+    text-align: center;
+    display: block;
+    }
+
+#submit-button {
+    width: 40%;
+    background-color: rgb(79, 70, 229);
+    color: white;
+    font-weight: bold;
+    font-size: 120%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    position: relative;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+#submit-button:hover{
+
+    width: 40%;
+    background-color: rgb(100, 93, 231);
+    top:-4px;
+    box-shadow:0 3px 3px #666;
+    color: white;
+    font-weight: bold;
+    transition:cubic-bezier(0.10, 1, 0.22, 1);
+    font-size: 120%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    margin-top: 20px;
+
+}
+
+
+
+#question-display {
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding: 12px 20px;
+    width: 60%;
+    box-sizing: border-box;
+    border: 2px solid rgb(79, 70, 229);
+    border-radius: 15px;
+    text-align: center;
+    display: block;
+}
+
+#answer{
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding: 12px 20px;
+    text-decoration: solid;
+    width: 80%;
+    min-height: 500px;
+    box-sizing: border-box;
+    border: 2px solid rgb(79, 70, 229);
+    border-radius: 25px;
+    text-align: left;
+    display: block;
+
+
+}
+
+
+#loading-indicator {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: -40%;
+    width: 20%;
+
+}
+
+.container-princ {
+    background-color: rgba(26, 30, 45, 0.2);
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+    box-sizing: border-box;
+    color: rgb(74, 85, 104);
+    display: flex;
+    flex-direction: column;
+    height: 2000px;
+    line-height: 30px;
+    margin: 0 auto;
+    max-width: none;
+    tab-size: 4;
+    border-radius: 65px;
+    text-size-adjust: 100%;
+    transition-duration: 0.15s;
+    transition-property: border;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    user-select: text;
+    width: 850px;
+    -webkit-font-smoothing: antialiased;
+    }
